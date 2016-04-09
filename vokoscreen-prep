@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if [ -d /tmp/vokoscreen-vokoscreen ]; then
+
+    rm -fr /tmp/vokoscreen-vokoscreen
+    ln -s /development/vokoscreen-vokoscreen /tmp/vokoscreen-vokoscreen
+
+fi
